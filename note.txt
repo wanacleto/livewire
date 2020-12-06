@@ -1,0 +1,7 @@
+1 - laravel new livewire
+2 - composer require livewire/livewire
+3 - php artisan livewire:publish --config
+4 - php artisan livewire:publish --assets
+5 - color - "@php artisan vendor:publish --force --tag=livewire:assets --ansi"
+6 - composer dump-autoload (quando rodar em um servidor)
+7 - php artisan make:model Tweet -m
