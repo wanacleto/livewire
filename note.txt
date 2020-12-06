@@ -5,3 +5,54 @@
 5 - color - "@php artisan vendor:publish --force --tag=livewire:assets --ansi"
 6 - composer dump-autoload (quando rodar em um servidor)
 7 - php artisan make:model Tweet -m
+8 - php artisan livewire:make ShowTweets (criar um novo component)
+9 - php artisan make:seed UserSeed
+10 - 
+
+
+
+html
+<br>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##########################
+
+Git global setup
+git config --global user.name "WAGNER ANACLETO"
+git config --global user.email "anacleto7@hotmail.com"
+
+Create a new repository
+git clone https://gitlab.com/wanacleto/livewire.git
+cd livewire
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Push an existing folder
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/wanacleto/livewire.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Push an existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://gitlab.com/wanacleto/livewire.git
+git push -u origin --all
+git push -u origin --tags
