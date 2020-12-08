@@ -7,8 +7,8 @@
 7 - php artisan make:model Tweet -m
 8 - php artisan livewire:make ShowTweets (criar um novo component)
 9 - php artisan make:seed UserSeed
-10 - 
-
+10 - composer require laravel/jetstream
+11 - php artisan jetstream:install livewire
 
 
 html
